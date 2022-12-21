@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: hsl(36, 100%, 99%);
+	font-family: "Inter";
+	padding: 3% 14%;
+	height: 100%;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	color: hsl(236, 13%, 42%);
+}
+
+nav h1 {
+	font-family: "Inter Black";
+	font-weight: 800;
+	font-size: 2.5rem;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+	align-self: center;
+	gap: 2rem;
+}
+
+.nav-list a {
+	color: hsl(236, 13%, 42%);
+	text-decoration: none;
+}
+
+.nav-list a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
+a {
+	text-decoration: none;
+}
+
+.new a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
+.main {
+	margin-top: 3%;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 0.4fr;
+	column-gap: 1.5rem;
+}
+
+.new {
+	background-color: hsl(240, 100%, 5%);
+	grid-column: 2;
+	grid-row: 1;
+	padding: 6%;
+}
+
+.new h1 {
+	color: hsl(35, 77%, 62%);
+	font-size: 2rem;
+}
+
+.new a {
+	color: white;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.1fr 0.8fr;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.hero-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 2rem;
+}
+
+.hero-content h1 {
+	font-weight: 800;
+	font-size: 2.8rem;
+}
+
+.flex-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+button {
+	background-color: hsl(5, 85%, 63%);
+	border: 0px;
+	text-transform: uppercase;
+	font-family: "Inter";
+	color: white;
+	letter-spacing: 5px;
+	padding: 0.75em 1.5em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: hsl(240, 100%, 5%);
+}
+
+.new-item {
+	border-bottom: 1px solid hsl(236, 13%, 42%);
+	padding: 20px 0px;
+	color: white;
+	line-height: 1.7;
+}
+
+.new-item p {
+	color: hsl(233, 8%, 79%);
+	font-size: 0.8rem;
+	margin-top: 10px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row: 2;
+	height: 68%;
+	align-self: flex-end;
+	column-gap: 1.5rem;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 1rem;
+}
+
+.card h1 {
+	color: hsl(233, 8%, 79%);
+}
+
+.card p {
+	font-size: 0.8rem;
+	line-height: 1.7;
+}
+
+.card a {
+	color: black;
+}
+
+.card a:hover {
+	color: hsl(35, 77%, 62%);
+}
