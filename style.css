@@ -225,7 +225,7 @@ main img {
 
 @media only screen and (min-width: 600px) {
 	.container {
-		padding: 3% 14%;
+		padding: 5% 14%;
 	}
 
 	.navbar button {
@@ -354,7 +354,7 @@ main img {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
 		column-gap: 1.3rem;
-		align-self: end;
+		align-self: center;
 		margin: 0rem;
 	}
 
