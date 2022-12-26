@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-1wMGbhn5pL)
+-   Live Site URL: [Live site URL](https://mk-milly02.github.io/news-homepage/)
 
 ## My process
 
@@ -82,6 +82,5 @@ function closeMenu() {
 
 ## Author
 
--   Website - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-   Website - [mk-milly02](https://github.com/mk-milly02)
+-   Twitter - [@mkmilly02](https://www.twitter.com/mkmilly02)
