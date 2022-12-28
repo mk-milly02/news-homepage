@@ -126,8 +126,9 @@ main img {
 	margin-top: 1rem;
 }
 
-.new-item h4 {
+.new-item a {
 	font-size: 1.3rem;
+	font-weight: 700;
 }
 
 .card {
@@ -143,7 +144,7 @@ main img {
 	font-weight: 700;
 }
 
-.card h4 {
+.card a {
 	font-size: 1.4rem;
 	font-weight: 700;
 }
@@ -265,7 +266,7 @@ main img {
 	main {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 230px repeat(2, 180px);
+		grid-template-rows: 250px repeat(2, 160px);
 		row-gap: 2rem;
 		column-gap: 1.5rem;
 	}
@@ -278,7 +279,7 @@ main img {
 	.headline {
 		grid-row: 2;
 		font-weight: 800;
-		font-size: 3rem;
+		font-size: 2.8rem;
 		margin-top: 0rem;
 	}
 
@@ -341,7 +342,8 @@ main img {
 		margin-top: 0.6rem;
 	}
 
-	.new-item h4 {
+	.new-item a {
+		font-weight: 700;
 		font-size: 1rem;
 	}
 
@@ -379,7 +381,7 @@ main img {
 		font-weight: 700;
 	}
 
-	.card h4 {
+	.card a {
 		font-size: 0.975rem;
 		font-weight: 700;
 	}
